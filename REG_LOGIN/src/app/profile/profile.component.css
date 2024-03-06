@@ -1,0 +1,19 @@
+/* profile.component.css */
+.profile-container {
+  max-width: 300px;
+  margin-top: 200px;
+  margin-left: 550px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.profile-container h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.profile-container p {
+  margin-bottom: 5px;
+}
