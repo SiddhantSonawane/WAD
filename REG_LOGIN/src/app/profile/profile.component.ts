@@ -8,12 +8,10 @@ import { Component } from '@angular/core';
 export class ProfileComponent {
   userData: any;
   username: string;
-  email: string;
 
   constructor() {
     // Retrieve user data from local storage
     this.userData = JSON.parse(localStorage.getItem('userData') || '{}');
     this.username = this.userData.username;
-    this.email = this.userData.email;
   }
 }
